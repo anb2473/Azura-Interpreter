@@ -1,0 +1,15 @@
+(foo : (
+	(list : [b, c])
+
+	(finalString : a)
+	(numOfItems : 0)
+
+	<string : list>[
+		(numOfItems++)
+		(finalString + string)
+    ]
+
+    (finalString * numOfItems)
+))
+
+(finalValue : foo.[].finalString)
